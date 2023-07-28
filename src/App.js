@@ -89,8 +89,7 @@ const App = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   return (
     <appContext.Provider value={{state, dispatch}}>
-      <div>
-        <h1>Hello GIT</h1>
+      <div> 
         <Counter />
       </div>
     </appContext.Provider>
