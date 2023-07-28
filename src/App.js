@@ -90,6 +90,7 @@ const App = () => {
   return (
     <appContext.Provider value={{state, dispatch}}>
       <div>
+        <h1>Hello GIT</h1>
         <Counter />
       </div>
     </appContext.Provider>
